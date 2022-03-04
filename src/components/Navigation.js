@@ -7,7 +7,7 @@ import { Nav } from "react-bootstrap";
 export default function Navigation() {
   // by setting the href to be the same as the routes we defined on App.js, the page we want will render based on the link chosen
   return (
-    <Nav className="navigation" activeKey="/home">
+    <Nav className="navigation" activeKey="/">
       <Nav.Item >
         <Nav.Link href="/">About Me</Nav.Link>
       </Nav.Item>
