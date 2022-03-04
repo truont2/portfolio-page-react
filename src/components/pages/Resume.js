@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <Container className='content'>
       <h3>Resume</h3>
-      <a href="https://drive.google.com/drive/u/0/folders/1Ml8QV-lttdfR2HfemGn4c9il36OHGRDs"><Button variant='secondary' role="button" className='resume'><i class="fa fa-file "></i> SEE MY RESUME</Button></a>
+      <a href="https://drive.google.com/file/d/1DjsPRdFZ6sg0AiYTsl9gDr2Iq8y7QRP4/view?usp=sharing"><Button variant='secondary' role="button" className='resume'><i class="fa fa-file "></i> SEE MY RESUME</Button></a>
 
       <h4>Front-end Proficiencies</h4>
       <ul>
