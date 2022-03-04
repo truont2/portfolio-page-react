@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-page-react/static/css/main.f33f5b77.css",
+    "main.js": "/portfolio-page-react/static/js/main.d05da750.js",
+    "static/js/787.283669bf.chunk.js": "/portfolio-page-react/static/js/787.283669bf.chunk.js",
+    "static/media/skyfall.PNG": "/portfolio-page-react/static/media/skyfall.51c8c135f47473f4e4ae.PNG",
+    "static/media/anime.png": "/portfolio-page-react/static/media/anime.d5921e041ae1dcbe7744.png",
+    "static/media/wallpaper.jpg": "/portfolio-page-react/static/media/wallpaper.def9ea5c6b0f59f45534.jpg",
+    "static/media/Capture1.png": "/portfolio-page-react/static/media/Capture1.629e3680105c67089d6a.png",
+    "static/media/profile.png": "/portfolio-page-react/static/media/profile.1d6a4084798835cddef9.png",
+    "static/media/password_result.png": "/portfolio-page-react/static/media/password_result.2ea7045ae4efb27fc909.png",
+    "index.html": "/portfolio-page-react/index.html",
+    "main.f33f5b77.css.map": "/portfolio-page-react/static/css/main.f33f5b77.css.map",
+    "main.d05da750.js.map": "/portfolio-page-react/static/js/main.d05da750.js.map",
+    "787.283669bf.chunk.js.map": "/portfolio-page-react/static/js/787.283669bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f33f5b77.css",
+    "static/js/main.d05da750.js"
+  ]
+}
