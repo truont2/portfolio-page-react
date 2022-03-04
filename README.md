@@ -21,7 +21,7 @@ Fullscreen screenshot:
 
 
 ### Website link
-https://truont2.github.io/Portfolio-Page/
+https://tt-react-portfolio.herokuapp.com/
 
 ### Resources
 * https://react-bootstrap.netlify.app/
