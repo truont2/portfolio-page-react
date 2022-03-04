@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# React Portfolio Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1. [General Info](#general-info)
+2. [Screenshots](#screenshots)
+3. [Webpage link](#Webpage-link)
+4. [Resources](#resources)
 
-## Available Scripts
+Author: Takara Truong
+### General Info
 
-In the project directory, you can run:
+This project utilized HTML, CSS, and React to build a responsive ann stylish portfolio page. There is a about me section, links to the github repositories, skills/resume section, and a contact section. Building from scratch, the webpage was build using react to create the  various pages and components, then used CSS to add style. To accomplish the layout and styling of some elements on the page, Bootstrap was used combined with manual styling through CSS. 
 
-### `npm start`
+This project taught me the fundementals of React and how to visualize applications as a combination of various components.  React was initially difficult to understand and implement at the beginning due to its format being completely different than my previous projects. Regardless, after working through the project and doing some tutorials on react, I was able to complete this portfolio page. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screenshots
+Fullscreen screenshot:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](./src/components/images/fullscreen.PNG)
+![image](./src/components/images/mobile.PNG)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Website link
+https://truont2.github.io/Portfolio-Page/
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Resources
+* https://react-bootstrap.netlify.app/
+* https://www.youtube.com/watch?v=bMknfKXIFA8html#:~:text=It%20is%20possible%20to%20display%20an%20animated%20text,the%20text%20you%20want%20to%20appear%20on%20hovering.
+* https://www.sliderrevolution.com/resources/css-text-animation/ 

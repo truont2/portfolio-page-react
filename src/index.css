@@ -1,13 +1,182 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Noto+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(62, 62, 63);
+  min-height: 15vh;
+  width: 100%;
+  padding: 0 2rem; 
+  opacity: 80%;
+}
+
+h1, h2, h3, h4, i{
+  font-family: 'Courgette';
+  color: white;
+}
+
+/* about me page text  */
+.about-text {
+  margin-top: 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* styling for bottom icons  */
+.fa, .form-label, li, a{
+  color: white;
+}
+
+.fa:hover,  a.nav-link:hover {
+  color:rgb(177, 177, 177)
+}
+
+/* navbar styling */
+a.nav-link {
+  color: white;
+  font-size: 25px;
+  font-family: 'Courgette';
+}
+
+.navigation{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+  }
+
+  .navigation{
+    justify-content: center;
+  }
+}
+
+nav ul {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+nav ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0  auto;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* footer */
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+
+  padding-left: 0;
+}
+.links li {
+  margin: 0 auto;
+  list-style: none;
+}
+.links li a{
+  padding: 10px;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 20px;
+  height: fit-content;
+  position: relative;
+}
+
+.content {
+  margin-top: 20px;
+  height: fit-content;
+}
+
+/* card styling */
+p.card-text {
+  color: black;
+}
+
+.card-image {
+  width: 100%;
+  height: 250px;
+}
+
+.card-content {
+  opacity: 0%;
+}
+
+.card-content:hover {
+  background: whitesmoke;
+  color: black;
+  opacity: 80%;
+}
+
+.profile {
+  height: 20vh;
+}
+
+/* sets background image of the page */
+body {
+  background-image: url('./components/images/wallpaper.jpg');
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  height: 100vh;
+}
+
+
+/* contact form styling */
+.contact-form {
+  width: 10vw;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, label, button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form {
+  width: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+  .form  {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+
+.message {
+  height: 50px;
+}
+
+.submitBtn {
+  margin-top: 10px;
+}
+
+/* resume page button */
+.resume {
+  margin-bottom: 10px;
 }
